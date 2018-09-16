@@ -45,3 +45,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise_token_auth'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.8'
+end
